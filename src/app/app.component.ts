@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
+// public num:any = 12345 
+
+  ngOnInit() {
+    
+   }
+
+// increment(){
+//   this.num++
+// }
+// decrement(){
+//   this.num--
+// }
+
 }
+
+
+

@@ -1,0 +1,39 @@
+<div class="container">
+
+<h1>Structural Directives</h1><br>
+<h2>ngIf :</h2>
+<div *ngIf="text; then thenblock; else elseblock"></div>
+<ng-template #thenblock>
+    <h3>Display</h3>
+</ng-template>
+<ng-template #elseblock>
+    <h3>NOT displayed</h3>
+</ng-template>
+
+<h2>ngSwitch :</h2>
+<div [ngSwitch]="property">
+    <div *ngSwitchCase="'red'">Color is Red</div>
+    <div *ngSwitchCase="'green'">Color is Green</div>
+    <div *ngSwitchCase="'blue'">Color is Blue</div>
+    <div *ngSwitchDefault>Choose again</div>
+</div>
+<h2>ngFor</h2>
+<div *ngFor="let props of properties">
+<h3>{{props}}</h3>
+</div>
+<br>
+<h2>Two way binding</h2>
+{{name}}<br>
+<input [(ngModel)]="name" type="text">
+<br>
+
+<h2>Pipes</h2>
+<h3>{{name | lowercase}}</h3>
+<h3>{{name | uppercase}}</h3>
+<h3>{{name | titlecase}}</h3>
+<h3>{{name | slice:4:7}}</h3>
+<h3>{{23.54 | number:'3.3-4'}}</h3>
+<h3>{{0.43 | percent}}</h3>
+<h3>{{43 | currency}}</h3>
+
+</div>
