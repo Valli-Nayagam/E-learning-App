@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CssComponent } from './codinglanguage/css/css.component';
-import { HtmlComponent } from './codinglanguage/html/html.component';
 import { JavascriptComponent } from './codinglanguage/javascript/javascript.component';
 import { CoursesComponent } from './courses/courses.component';
 import { HomeComponent } from './html-tutorial/home/home.component';
@@ -25,7 +24,6 @@ const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'courses', component: CoursesComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'html', component: HtmlComponent },
   { path: 'htmlhome', component: HomeComponent },
   { path: 'htmlintroduction', component: IntroductionComponent },
   { path: 'htmlbasic', component: HtmlbasicComponent },

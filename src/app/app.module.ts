@@ -7,7 +7,6 @@ import { LoginComponent } from './login/login.component';
 import { CoursesComponent } from './courses/courses.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { JavascriptComponent } from './codinglanguage/javascript/javascript.component';
-import { HtmlComponent } from './codinglanguage/html/html.component';
 import { CssComponent } from './codinglanguage/css/css.component';
 import { HomeComponent } from './html-tutorial/home/home.component';
 import { IntroductionComponent } from './html-tutorial/introduction/introduction.component';
@@ -35,7 +34,6 @@ import { environment } from 'src/environments/environment';
     LoginComponent,
     CoursesComponent,
     MainpageComponent,
-    HtmlComponent,
     CssComponent,
     JavascriptComponent,
     HomeComponent,
