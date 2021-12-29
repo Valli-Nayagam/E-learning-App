@@ -1,0 +1,31 @@
+.gif{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    margin-top: 100px;
+}
+.login-page {
+    position: absolute;
+    right: 0;
+    margin: 30px;
+    margin-right: 37%;
+    margin-top: 8%;
+    width: 430px;
+    max-width: 500px;
+    padding: 16px;
+    background-color: rgb(215, 233, 230);
+  }
+/* Full-width input fields */
+  input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
