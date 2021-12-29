@@ -7,11 +7,6 @@ import { LoginComponent } from './login/login.component';
 import { CoursesComponent } from './courses/courses.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { JavascriptComponent } from './codinglanguage/javascript/javascript.component';
-import { BootstrapComponent } from './codinglanguage/bootstrap/bootstrap.component';
-import { AngularComponent } from './codinglanguage/angular/angular.component';
-import { TypescriptComponent } from './codinglanguage/typescript/typescript.component';
-import { CComponent } from './codinglanguage/c/c.component';
-import { CplusplusComponent } from './codinglanguage/cplusplus/cplusplus.component';
 import { HtmlComponent } from './codinglanguage/html/html.component';
 import { CssComponent } from './codinglanguage/css/css.component';
 import { HomeComponent } from './html-tutorial/home/home.component';
@@ -43,11 +38,6 @@ import { environment } from 'src/environments/environment';
     HtmlComponent,
     CssComponent,
     JavascriptComponent,
-    BootstrapComponent,
-    AngularComponent,
-    TypescriptComponent,
-    CComponent,
-    CplusplusComponent,
     HomeComponent,
     IntroductionComponent,
     HtmleditorsComponent,

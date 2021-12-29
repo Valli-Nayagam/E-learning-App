@@ -1,13 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AngularComponent } from './codinglanguage/angular/angular.component';
-import { BootstrapComponent } from './codinglanguage/bootstrap/bootstrap.component';
-import { CComponent } from './codinglanguage/c/c.component';
-import { CplusplusComponent } from './codinglanguage/cplusplus/cplusplus.component';
 import { CssComponent } from './codinglanguage/css/css.component';
 import { HtmlComponent } from './codinglanguage/html/html.component';
 import { JavascriptComponent } from './codinglanguage/javascript/javascript.component';
-import { TypescriptComponent } from './codinglanguage/typescript/typescript.component';
 import { CoursesComponent } from './courses/courses.component';
 import { HomeComponent } from './html-tutorial/home/home.component';
 import { HtmlbasicComponent } from './html-tutorial/htmlbasic/htmlbasic.component';
@@ -48,11 +43,6 @@ const routes: Routes = [
   { path: 'htmltables', component: HtmltablesComponent },
   { path: 'css', component: CssComponent },
   { path: 'javascript', component: JavascriptComponent },
-  { path: 'typescript', component: TypescriptComponent },
-  { path: 'bootstrap', component: BootstrapComponent },
-  { path: 'angular', component: AngularComponent },
-  { path: 'c', component: CComponent },
-  { path: 'c++', component: CplusplusComponent },
 
 ];
 
